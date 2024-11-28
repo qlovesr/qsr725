@@ -1,0 +1,107 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>欧洲风景介绍</title>
+
+<style>
+  /* 顶部菜单栏样式 */
+  .navbar {
+      background-color: #333;
+      overflow: hidden;
+      position: fixed;
+      top: 0;
+      width: 100%;
+      display: flex; /* 使用flex布局 */
+      justify-content: space-around; /* 平均分布菜单项 */
+  }
+  .navbar a {
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+  }
+  .navbar a:hover {
+      background-color: #ddd;
+      color: black;
+  }
+
+  /* 黑底白字段落样式 */
+  .intro-text {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 10px 0;
+      margin-top: 60px; /* 与菜单栏保持一定距离 */
+      width: 100%;
+  }
+
+  /* 背景图片样式 */
+  .background1 {
+      background-image: url('image/123.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      height: 600px;
+      margin-top: 15px; /* 与黑底白字段落保持一定距离 */
+      position: relative; /* 设置相对定位 */
+  }
+  .background1 p {
+      position: absolute; /* 设置绝对定位 */
+      top: 40px; /* 距离上边20px */
+      left: 40px; /* 距离左边20px */
+      color: white;
+      font-size: 30px;
+      text-align: left; /* 文本左对齐 */
+  }
+  .background2 {
+      background-image: url('image/1234.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      height: 600px;
+      margin-top: 15px;
+      position: relative; /* 设置相对定位 */
+  }
+  .background2 p {
+      position: absolute; /* 设置绝对定位 */
+      top: 20px; /* 距离上边20px */
+      left: 310px; /* 距离右边20px */
+      color: white;
+      font-size: 30px; /* 修改字体大小 */
+      text-align: left; /* 文本右对齐 */
+  }
+</style>
+</head>
+<body>
+
+<!-- 顶部菜单栏 -->
+<div class="navbar">
+  <a href="index.html">首页</a>
+  <a href="web/city.html">欧洲城市风光</a>
+  <a href="web/nature.html">欧洲自然风光</a>
+  <a href="web/museum.html">欧洲博物馆</a>
+  <a href="web/film.html">欧洲影视作品</a>
+</div>
+
+<!-- 黑底白字段落 -->
+<div class="intro-text">
+  秦硕嵘 U202414725 网页设计
+</div>
+
+<!-- 第一张背景图片 -->
+<div class="background1">
+  <p>欧洲简介</p>
+</div>
+
+<!-- 第二张背景图片 -->
+<div class="background2">
+  <p>
+      旅游：
+    •  欧洲是全球最受欢迎的旅游目的地之一，拥有众多历史遗迹、自然风光和文化活动。
+    欧洲在历史上对世界文化、科学、政治和经济有着深远的影响，至今仍在全球事务中扮演着重要角色。
+    </p>
+</div>
+
+</body>
+</html>

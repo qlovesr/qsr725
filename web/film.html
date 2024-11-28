@@ -1,0 +1,109 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>欧洲风景介绍</title>
+
+<style>
+  /* 顶部菜单栏样式 */
+  .navbar {
+      background-color: #333;
+      overflow: hidden;
+      position: fixed;
+      top: 0;
+      width: 100%;
+      display: flex; /* 使用flex布局 */
+      justify-content: space-around; /* 平均分布菜单项 */
+  }
+  .navbar a {
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+  }
+  .navbar a:hover {
+      background-color: #ddd;
+      color: black;
+  }
+
+  /* 背景图片样式 */
+  .background1 {
+      background-image: url('/Users/qinshuorong/Desktop/qsr725/image/video1.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      height: 300px;
+      margin-top: 60px; /* 与菜单栏保持一定距离 */
+      position: relative; /* 设置相对定位 */
+  }
+  .background1 p {
+      position: absolute; /* 设置绝对定位 */
+      top: 20px; /* 距离上边20px */
+      left: 20px; /* 距离左边20px */
+      color: white;
+      font-size: 30px;
+      text-align: left; /* 文本左对齐 */
+  }
+  .background2 {
+      background-image: url('/Users/qinshuorong/Desktop/qsr725/image/video2.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      height: 300px;
+      margin-top: 15px;
+      position: relative; /* 设置相对定位 */
+  }
+  .background2 p {
+      position: absolute; /* 设置绝对定位 */
+      top: 20px; /* 距离上边20px */
+      right: 20px; /* 距离右边20px */
+      color: white;
+      font-size: 20px; /* 修改字体大小 */
+      text-align: right; /* 文本右对齐 */
+  }
+  
+  /* 新增背景图片样式 */
+  .background3 {
+      background-image: url('/Users/qinshuorong/Desktop/qsr725/image/video3.jpg'); /* 替换为实际图片路径 */
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      height: 300px;
+      margin-top: 15px;
+      position: relative; /* 设置相对定位 */
+  }
+  .background3 p {
+      position: absolute; /* 设置绝对定位 */
+      top: 20px; /* 距离上边20px */
+      left: 20px; /* 距离左边20px */
+      color: white;
+      font-size: 30px;
+      text-align: left; /* 文本左对齐 */
+  }
+  
+</style>
+</head>
+<body>
+
+<!-- 顶部菜单栏 -->
+<div class="navbar">
+    <a href="/Users/qinshuorong/Desktop/qsr725/index.html">首页</a>
+    <a href="/Users/qinshuorong/Desktop/qsr725/web/city.html">欧洲城市风光</a>
+    <a href="/Users/qinshuorong/Desktop/qsr725/web/nature.html">欧洲自然风光</a>
+    <a href="/Users/qinshuorong/Desktop/qsr725/web/museum.html">欧洲博物馆</a>
+    <a href="/Users/qinshuorong/Desktop/qsr725/web/film.html">欧洲影视作品</a>
+  </div>
+
+<!-- 第一张背景图片 -->
+<div class="background1">
+</div>
+
+<!-- 第二张背景图片 -->
+<div class="background2">
+</div>
+
+<!-- 第三张背景图片 -->
+<div class="background3">
+</div>
+</body>
+</html>
